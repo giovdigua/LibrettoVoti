@@ -20,6 +20,11 @@ public class Libretto {
 		voti.add(v);
 	}
 	
+	/**
+	 * Seleziona il sottoinsieme di voti che hanno il punteggio specificato
+	 * @param punti punteggio da riceracre
+	 * @return lista di {@link Voto} 
+	 */
 	public List<Voto> cercaVoti(int punti) {
 		List<Voto> result = new ArrayList<Voto>();
 		
